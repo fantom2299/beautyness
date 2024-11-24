@@ -1,0 +1,94 @@
+/* Header.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 8px;
+}
+
+.brandName {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #6e7b85;
+}
+
+.phoneIcon {
+  margin-right: 8px;
+  background-image: url('../images/tel.png');
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  margin: 0 15px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navLinkActive, .navLink:hover {
+  color: #6e7b85;
+}
+
+.socialIcon {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  background-size: cover;
+}
+
+.facebook { background-image: url('../images/facebook.png'); }
+.twitter { background-image: url('../images/twitter.png'); }
+.linkedin { background-image: url('../images/linkedin.png'); }
+
+.reservationButton {
+  display: flex;
+  align-items: center;
+  background-color: #6e7b85;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reservationButton:hover {
+  background-color: #5a6772;
+}
+
+.reservationIcon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  background-image: url('../images/calendar-icon.png');
+  display: inline-block;
+}

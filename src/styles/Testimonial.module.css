@@ -1,0 +1,35 @@
+/* Testimonial.module.css */
+.card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 8px;
+	width: 300px;
+	background-color: #ffffff;
+}
+
+.text {
+	font-style: italic;
+	color: #333333;
+}
+
+.details {
+	text-align: left;
+}
+
+.name {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.location {
+	font-size: 12px;
+	color: #cccccc;
+}
+
+.stars {
+	color: #ffcc00;
+	font-size: 14px;
+}

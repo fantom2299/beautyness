@@ -1,0 +1,87 @@
+.footer {
+  background-color: #1e2d2f;
+  color: #ffffff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logoSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2a3b3c;
+  padding-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.linksSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+	font-weight: 400;
+  font-size: 22px;
+  line-height: 30.8px;
+  margin-bottom: 10px;
+}
+
+.list {
+  font-family: "Manrope", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 29px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list li a {
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.list li a:hover {
+  text-decoration: underline;
+}
+
+.footerNote {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #8a9b9d;
+}
